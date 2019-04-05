@@ -1,0 +1,15 @@
+def ball_count(input1,input2,input3):
+    pass
+
+ip1_cnt = 0
+ip1_cnt = int(raw_input())
+ip1_i=0
+ip1 = []
+while ip1_i < ip1_cnt:
+    ip1_item = int(raw_input());
+    ip1.append(ip1_item)
+    ip1_i+=1
+ip2 = int(raw_input());
+ip3 = int(raw_input());
+output = ball_count(ip1,ip2,ip3)
+print(str(output))
